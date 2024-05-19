@@ -1,0 +1,43 @@
+body {
+    background-color: #000000; 
+  }
+  
+.v-app-bar-title {
+    color: #000000; 
+  }
+
+.v-footer {
+  background-color: #B0E0E6; 
+  color: #000000;
+  }
+
+.v-btn,
+.v-text-field { 
+  color: #000000; 
+  }
+
+  body {
+    background-color: #000000;
+  }
+  
+  .v-app-bar {
+    background-color: #B0E0E6 !important;
+    color: #000000 !important;
+  }
+  
+  .v-card {
+    background-color: #B0E0E6 !important;
+    color: #000000 !important;
+  }
+  
+  .v-btn {
+    color: #000000 !important;
+  }
+  
+  .v-icon {
+    color: #000000 !important;
+  }
+  
+  .v-text-field {
+    color: #000000!important;
+  }
