@@ -1,18 +1,19 @@
-body {
+  body {
     background-color: #000000; 
   }
   
-.v-app-bar-title {
+  .v-app-bar-title {
     color: #000000; 
   }
 
-.v-footer {
+  .v-footer {
   background-color: #B0E0E6; 
   color: #000000;
+  margin-top: 98px;
   }
 
-.v-btn,
-.v-text-field { 
+  .v-btn,
+  .v-text-field { 
   color: #000000; 
   }
 
@@ -41,3 +42,6 @@ body {
   .v-text-field {
     color: #000000!important;
   }
+  
+  
+  
