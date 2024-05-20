@@ -1,6 +1,6 @@
 # vue-todo
 
-My application is a to-do app that uses the CRUD methodology to manage tasks. Developed with Vue.js 3 and Vuetify Vue CLI, it allows users to add, edit, delete, and confirm tasks as completed.
+My application is a to-do app that uses the CRUD(Create, Read, Update, Delete) methodology to manage tasks. Developed with Vue.js 3 and Vuetify Vue CLI, it allows users to add, edit, delete, and confirm tasks as completed.
 
 ## Project setup
 
