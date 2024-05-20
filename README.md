@@ -1,33 +1,35 @@
-# vue-todo
-
 ## Project setup
-```
+
 npm install
-# Este comando instala todas as dependências do projeto listadas no arquivo package.json.
+
+# This command installs all the project dependencies listed in the package.json file.
 
 ### Compiles and hot-reloads for development
+
 npm run serve
-# Este comando inicia o servidor de desenvolvimento.
-# Ele compila o projeto e configura o hot-reloading,
-# que automaticamente recarrega a página quando há mudanças no código fonte.
+
+# This command starts the development server.
+# It compiles the project and sets up hot-reloading,
+# which automatically reloads the page when there are changes in the source code.
 
 ### Compiles and minifies for production
+
 npm run build
-# Este comando compila o projeto para um ambiente de produção.
-# Ele otimiza e minifica os arquivos, resultando em um pacote mais eficiente e menor,
-# pronto para ser implantado em um servidor de produção.
+
+# This command compiles the project for a production environment.
+# It optimizes and minifies the files, resulting in a more efficient and smaller package,
+# ready to be deployed to a production server.
 
 ### Lints and fixes files
+
 npm run lint
-# Este comando executa a ferramenta de linting, que analisa o código fonte para encontrar e corrigir problemas de estilo e erros comuns.
-# O linting ajuda a manter um código mais limpo e consistente.
+
+# This command runs the linting tool, which analyzes the source code to find and fix style issues and common errors.
+# Linting helps maintain cleaner and more consistent code.
 
 ### Customize configuration
-# Para personalizar a configuração do projeto, consulte a referência de configuração do Vue CLI no link abaixo:
+
+# To customize the project configuration, see the Vue CLI configuration reference at the link below:
 See [Configuration Reference](https://cli.vuejs.org/config/).
-
-
-
-
 
 
