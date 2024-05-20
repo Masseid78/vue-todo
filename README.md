@@ -20,9 +20,4 @@ npm run build
 ### Lints and fixes files
 ```
 
-### Customize configuration
-
-# To customize the project configuration, see the Vue CLI configuration reference at the link below:
-See [Configuration Reference](https://cli.vuejs.org/config/).
-
 
