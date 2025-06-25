@@ -1,8 +1,8 @@
-# 🚀 TaskMaster Pro - Fullstack
+#  TaskMaster Pro - Fullstack
 
 > Projeto completo com **Vue 3 + Vite** no frontend e **Node.js + Express + MongoDB** no backend, tudo junto na raiz!
 
-## ✨ Como rodar
+##  Como rodar
 
 ### 1. Instale as dependências
 ```bash
@@ -31,7 +31,7 @@ yarn dev:web
 
 ---
 
-## 📦 Estrutura
+##  Estrutura
 ```
 ├── models/         # Models do MongoDB
 ├── routes/         # Rotas da API Express
@@ -44,7 +44,7 @@ yarn dev:web
 
 ---
 
-## 🌟 Funcionalidades
+##  Funcionalidades
 - CRUD de tarefas com MongoDB
 - Interface moderna com Vuetify
 - API RESTful

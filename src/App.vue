@@ -123,8 +123,8 @@
         <v-row align="center" justify="center">
           <v-col class="text-center">
             <div class="d-flex align-center justify-center mb-2">
-              <v-icon class="mr-2">mdi-heart</v-icon>
-              <span>Feito com amor usando Vue.js & Vuetify</span>
+              <v-icon class="mr-2"></v-icon>
+              <span></span>
             </div>
             <p class="text-caption">TaskMaster Pro &copy; {{ new Date().getFullYear() }}</p>
           </v-col>
