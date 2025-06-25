@@ -1,47 +1,182 @@
+/* Reset e estilos globais */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Scrollbar personalizada */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+/* Animações globais */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideInFromBottom {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Classes utilitárias */
+.glass-effect {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.gradient-text {
+  background: linear-gradient(45deg, #667eea, #764ba2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.hover-lift {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para componentes Vuetify */
+.v-card {
+  border-radius: 16px !important;
+  overflow: hidden;
+}
+
+.v-btn {
+  border-radius: 12px !important;
+  text-transform: none !important;
+  font-weight: 600 !important;
+}
+
+.v-text-field {
+  border-radius: 12px !important;
+}
+
+.v-chip {
+  border-radius: 8px !important;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
   body {
-    background-color: #000000; 
-  }
-  
-  .v-app-bar-title {
-    color: #000000; 
-  }
-
-  .v-footer {
-  background-color: #B0E0E6; 
-  color: #000000;
-  margin-top: 98px;
-  }
-
-  .v-btn,
-  .v-text-field { 
-  color: #000000; 
-  }
-
-  body {
-    background-color: #000000;
-  }
-  
-  .v-app-bar {
-    background-color: #B0E0E6 !important;
-    color: #000000 !important;
+    font-size: 14px;
   }
   
   .v-card {
-    background-color: #B0E0E6 !important;
-    color: #000000 !important;
+    border-radius: 12px !important;
   }
   
   .v-btn {
-    color: #000000 !important;
+    border-radius: 8px !important;
   }
-  
-  .v-icon {
-    color: #000000 !important;
-  }
-  
-  .v-text-field {
-    color: #000000!important;
-  }
+}
+
+/* Efeitos de foco e acessibilidade */
+.v-btn:focus,
+.v-text-field:focus-within {
+  outline: 2px solid #667eea;
+  outline-offset: 2px;
+}
+
+/* Transições suaves */
+.v-card,
+.v-btn,
+.v-text-field,
+.v-chip {
+  transition: all 0.3s ease;
+}
+
+.v-app-bar-title {
+  color: #000000; 
+}
+
+.v-footer {
+  background-color: #B0E0E6; 
+  color: #000000;
+  margin-top: 98px;
+}
+
+.v-btn,
+.v-text-field { 
+  color: #000000; 
+}
+
+body {
+  background-color: #000000;
+}
+
+.v-app-bar {
+  background-color: #B0E0E6 !important;
+  color: #000000 !important;
+}
+
+.v-card {
+  background-color: #B0E0E6 !important;
+  color: #000000 !important;
+}
+
+.v-btn {
+  color: #000000 !important;
+}
+
+.v-icon {
+  color: #000000 !important;
+}
+
+.v-text-field {
+  color: #000000!important;
+}
   
   
   

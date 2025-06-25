@@ -1,23 +1,55 @@
-# vue-todo
+# 🚀 TaskMaster Pro - Fullstack
 
-My application is a to-do app that uses the CRUD(Create, Read, Update, Delete) methodology to manage tasks. Developed with Vue.js 3 and Vuetify Vue CLI, it allows users to add, edit, delete, and confirm tasks as completed.
+> Projeto completo com **Vue 3 + Vite** no frontend e **Node.js + Express + MongoDB** no backend, tudo junto na raiz!
 
-## Project setup
+## ✨ Como rodar
 
-npm install
+### 1. Instale as dependências
+```bash
+yarn install
 ```
 
-### Compiles and hot-reloads for development
+### 2. Configure o banco de dados
+- Edite o arquivo `.env` com sua string do MongoDB (ou use o padrão local)
+
+### 3. Rode tudo junto (frontend + backend)
+```bash
+yarn dev
 ```
-npm run serve
+- Frontend: http://localhost:8080
+- Backend/API: http://localhost:3000
+
+### 4. Rodar só o backend
+```bash
+yarn dev:api
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
+### 5. Rodar só o frontend
+```bash
+yarn dev:web
 ```
 
+---
 
+## 📦 Estrutura
+```
+├── models/         # Models do MongoDB
+├── routes/         # Rotas da API Express
+├── src/            # Código Vue (frontend)
+├── server.js       # Servidor Express principal
+├── .env            # Configurações de ambiente
+├── package.json    # Dependências e scripts
+├── README.md       # Este arquivo
+```
+
+---
+
+## 🌟 Funcionalidades
+- CRUD de tarefas com MongoDB
+- Interface moderna com Vuetify
+- API RESTful
+- Deploy fácil (tudo junto)
+
+---
+
+Feito para facilitar o desenvolvimento fullstack! 🚀 
